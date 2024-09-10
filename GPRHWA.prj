@@ -1,0 +1,4 @@
+vhdl work "commands.vhd"
+vhdl work "ROM.vhd"
+vhdl work "RAM.vhd"
+vhdl work "HWANonZeroAmount.vhd"

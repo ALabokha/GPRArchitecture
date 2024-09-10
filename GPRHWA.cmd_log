@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-1I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-1I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 1I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+xst -intstyle ise -ifn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.xst" -ofn "C:/Work/Xilinx/GPRArchitecture/GPRHWA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I GPRHWA.ngc GPRHWA.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GPRHWA_map.ncd GPRHWA.ngd GPRHWA.pcf 
+par -w -intstyle ise -ol high -mt off GPRHWA_map.ncd GPRHWA.ncd GPRHWA.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml GPRHWA.twx GPRHWA.ncd -o GPRHWA.twr GPRHWA.pcf 
+bitgen -intstyle ise -f GPRHWA.ut GPRHWA.ncd 
